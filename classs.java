@@ -1,4 +1,4 @@
-public class a {
+public class classs {
     int a;
     String name;
 
