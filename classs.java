@@ -6,9 +6,9 @@ public class classs {
         // declaring variable
         // creating object
         int num = 10;// this is variable declaring it is known asprimitive
-        a obj = new a();// this is object with new keyword
-                        // obj is refrance variable and new a() is object
-        a obj1 = new a();
+        classs obj = new classs();// this is object with new keyword
+        // obj is refrance variable and new a() is object
+        classs obj1 = new classs();
 
         obj.name = "soham";
         System.out.println(obj.a);
@@ -16,6 +16,6 @@ public class classs {
 
         System.out.println(obj1.a);
         System.out.println(obj1.name);
-
+        System.out.println(num);
     }
 }

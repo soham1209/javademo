@@ -13,5 +13,6 @@ public class secondjjava {
         int n1 = 12,n2 = 5;
         float res = n1/n2;
         System.out.println(res);// here the value should be 2.2 but the answer come 2.0 this called trancation
+        System.out.println(num2);
     }
 }
