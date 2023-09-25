@@ -1,29 +1,12 @@
 class practics{
     public static void main(String[] args) {
-        int n= 5;
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n*2-1; j++) {
-                if (i+j>=n-1 && j-i<=n-1) {
-                    System.out.print(" *");
-                }
-                else{
-                    System.out.print("  ");
-                }
-            }
-            System.out.println();
-        }
+        int a= 45;
+        System.out.println( a);
 
-        // for (int i = 0; i < n; i++) {
-        
-        // for (int j = 0; j < n; j++) {
-        //     if(i==j||i+j==n-1){
-        //         System.out.print(" *");
-        //     }
-        //     else{
-        //         System.out.print("  ");
-        //     }
-        // }
-        // System.out.println("  ");
-    
+        int b = 045;
+        System.out.println( b);
+
+        int c = 0x45;
+        System.out.println( c);
     }
 }
