@@ -22,4 +22,4 @@ public class CommandLineCalculator {
             System.out.println(num1 + num2);
         }
     }
-}
+

@@ -7,7 +7,8 @@ interface a {
 class Interface {
 
     public static void main(String[] args) {
-        System.out.println("hi");
+        System.out.println(a.num);
+        // a.num =10;//it is finel so no change in value
 
     }
 }

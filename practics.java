@@ -1,12 +1,23 @@
-class practics{
+import java.util.Scanner;
+
+class practics {
     public static void main(String[] args) {
-        int a= 45;
-        System.out.println( a);
-
-        int b = 045;
-        System.out.println( b);
-
-        int c = 0x45;
-        System.out.println( c);
+        Scanner sc = new Scanner(System.in);
+        String s= sc.nextLine();
+        sc.close();
+        int j = s.length()-1;
+        boolean flag = true;
+        for (int i = 0; i < s.length() / 2; i++) {
+            if (s.charAt(i) == s.charAt(j)) {
+                flag= true;
+            } 
+            else {
+                flag = false;
+                break;
+            }
+            j = j- 1;
+        }
+        if(flag==true) System.out.println("yes");
+        else System.out.println("No");
     }
 }
